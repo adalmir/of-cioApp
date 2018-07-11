@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head> <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" /></head>
+<img src="" alt="" width="65" height="44" class="alignnone size-full wp-image-150" /><style>.c1{color:#0000ff;font-weight:400;text-decoration:none;align:left;font-size:18pt;font-family:"Times New Roman";font-style:normal}.c2{color:#0000ff;font-weight:400;text-decoration:none;font-size:10pt;font-family:"Times New Roman";font-style:normal}div.c1{text-align:center;margin-bottom: -100px}div.c2{text-align:center;margin-top: -20px}div.dia{ text-align: right;margin-top: 100px}div.texto{ text-align: center;margin-top: 50px}div.resp{ text-align: left;margin-top: 100px}div.dest{ text-align: left;margin-top: 50px}div.assunto{ text-align: left;margin-top: 150px}div.dir{ text-align: left;margin-top: 50px}div.orgao{ text-align: left;margin-top: 50px}div.end{ text-align: left;margin-top: 50px}</style>
+<div class="c1"><span class="c1"><p class="c1">Sistema de Ofícios VC HI-TECH</p></span></div>
+<div class="c2"><span class="c2"><p class="c2">Secretaria Municipal de Cultura, Esporte e Lazer</p></span></div>
+<div class ="db">
+
+<form action="inserirdados.php" method="post">
+   
+        
+             <div class="assunto">
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" style="width: 20em" value="" />
+            </div>  
+            
+            
+            <div class="dia">
+                <label for="dia">Dia</label>
+                <input type="date" id="dia" name="dia" style="width: 10em" size="40" value="" />
+            </div>
+           
+        
+       <div class="texto">
+            <label for="texto">Texto</label>
+          <input type="text" id="texto" name="texto" style="width: 70em" value="" />
+        </div>
+		<div class="resp">
+            <label for="responsavel">Responsavel</label>
+             <input type="text" id="responsavel" name="responsavel" style="width: 20em"  value="" />
+        </div>
+        	<div class="dir">
+            <label for="responsavel">Diretor</label>
+             <input type="text" id="diretor" name="diretor" style="width: 23em"  value="" />
+        </div>
+		
+		 <div class="table-responsive">  
+                	<div class="col-md-12" align="right">
+        <div class="dest">
+            <label for="destinatario">Destinatario</label>
+            <input type="text" id="destinatario" name="destinatario" style="width: 20em" value="" />
+        </div>   
+         <div class="orgao">
+            <label for="orgao">Orgão</label>
+            <input type="text" id="orgao" name="orgao" style="width: 23em" value="" />
+        </div>   
+         <div class="end">
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" name="endereco" style="width: 21em" value="" />
+        </div>   
+ 
+        
+       
+ 
+        <button type="submit" class="btn btn-success" name="submit">Salvar</button>
+	
+
+</form>
+<form action="http://oficiocultura.000webhostapp.com/index.php" method=""><button type="submit" class="btn btn-success" name="submit">imprimir</button></form>
