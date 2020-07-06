@@ -1,4 +1,4 @@
-# of-cioApp
+# oficioApp
 Cria modelo de ofício com numeração e layout editável
 CRIADOR DE OFICIO 
 
